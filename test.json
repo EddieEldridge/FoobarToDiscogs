@@ -1,0 +1,42 @@
+{
+    "path": "file://D:\\Music\\Nujabes\\Nujabes\\Nujabes - Modal Soul\\Nujabes - 13 - Light On The Land.flac",
+    "subsong_index": 0,
+    "length": 235,
+    "info": {
+        "bitrate": "799",
+        "bitspersample": "16",
+        "channels": "2",
+        "codec": "FLAC",
+        "cue_embedded": "no",
+        "encoding": "lossless",
+        "md5": "D68AE7C8F0F7F6B0FC65BF7416A874ED",
+        "samplerate": "44100",
+        "tool": "reference libFLAC 1.1.4 20070213"
+    },
+    "meta": {
+        "ALBUM": [
+            "Modal Soul"
+        ],
+        "ARTIST": [
+            "Nujabes"
+        ],
+        "DATE": [
+            "2005"
+        ],
+        "ENSEMBLE": [
+            "Nujabes"
+        ],
+        "GENRE": [
+            "Hip-Hop"
+        ],
+        "TITLE": [
+            "Light On The Land"
+        ],
+        "TRACKNUMBER": [
+            "13"
+        ]
+    },
+    "playback_stats": {
+        "added": "2018-01-28 20:56:18"
+    }
+}
