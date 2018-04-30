@@ -13,10 +13,10 @@ main_api = 'https://api.discogs.com/database/search?q=SEARCHTERM&key=CONSUMERKEY
 #Read in our file containing information about our Foobar library
 data = json.load(open('test.json'))
 
-data["meta"]["ALBUM"]
+albumData = data["meta"]["ALBUM"]
 
 # Pretty print our data
-pprint(data)
+pprint(albumData)
 
 # User Input for their search term
 #searchTerm = input("Search: " )

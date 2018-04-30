@@ -1,42 +1,923 @@
-{
-    "path": "file://D:\\Music\\Nujabes\\Nujabes\\Nujabes - Modal Soul\\Nujabes - 13 - Light On The Land.flac",
-    "subsong_index": 0,
-    "length": 235,
-    "info": {
-        "bitrate": "799",
-        "bitspersample": "16",
-        "channels": "2",
-        "codec": "FLAC",
-        "cue_embedded": "no",
-        "encoding": "lossless",
-        "md5": "D68AE7C8F0F7F6B0FC65BF7416A874ED",
-        "samplerate": "44100",
-        "tool": "reference libFLAC 1.1.4 20070213"
+  [
+  {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\07. Fistful Of Love.mp3",
+        "subsong_index": 0,
+        "length": 351.893,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "672",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons feat. Lou Reed"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "Fistful Of Love"
+            ],
+            "tracknumber": [
+                "7"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
     },
-    "meta": {
-        "ALBUM": [
-            "Modal Soul"
-        ],
-        "ARTIST": [
-            "Nujabes"
-        ],
-        "DATE": [
-            "2005"
-        ],
-        "ENSEMBLE": [
-            "Nujabes"
-        ],
-        "GENRE": [
-            "Hip-Hop"
-        ],
-        "TITLE": [
-            "Light On The Land"
-        ],
-        "TRACKNUMBER": [
-            "13"
-        ]
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 1\\04 - Solid Wall of Sound.mp3",
+        "subsong_index": 0,
+        "length": 223.387,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1128",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "1"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Solid Wall of Sound"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "04"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
     },
-    "playback_stats": {
-        "added": "2018-01-28 20:56:18"
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\07 - Ego.mp3",
+        "subsong_index": 0,
+        "length": 197.64,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "684",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Ego"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "07"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\05. You Are My Sister.mp3",
+        "subsong_index": 0,
+        "length": 239.52,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1584",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons feat. Boy George"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "You Are My Sister"
+            ],
+            "tracknumber": [
+                "5"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\01 - Mobius.mp3",
+        "subsong_index": 0,
+        "length": 171.68,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1584",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Mobius"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "01"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\09. Free At Last.mp3",
+        "subsong_index": 0,
+        "length": 96.1333,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1608",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "Free At Last"
+            ],
+            "tracknumber": [
+                "9"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\04 - Lost Somebody.mp3",
+        "subsong_index": 0,
+        "length": 258.907,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1416",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Lost Somebody"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "04"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\02. My Lady Story.mp3",
+        "subsong_index": 0,
+        "length": 213.427,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1452",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "My Lady Story"
+            ],
+            "tracknumber": [
+                "2"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 1\\01 - The Space Program.mp3",
+        "subsong_index": 0,
+        "length": 340.733,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "924",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "1"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "The Space Program"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "01"
+            ]
+        },
+        "playback_stats": {
+            "first_played": "2018-01-29 11:37:21",
+            "last_played": "2018-01-29 11:37:21",
+            "play_count": "1",
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\02 - Black Spasmodic.mp3",
+        "subsong_index": 0,
+        "length": 183.64,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "612",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Black Spasmodic"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "02"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\08. Spiralling.mp3",
+        "subsong_index": 0,
+        "length": 265.4,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "756",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons feat. Devendra Banhart"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "Spiralling"
+            ],
+            "tracknumber": [
+                "8"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 1\\05 - Dis Generation.mp3",
+        "subsong_index": 0,
+        "length": 213.493,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "816",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "1"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Dis Generation"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "05"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\05 - Movin Backwards.mp3",
+        "subsong_index": 0,
+        "length": 281.813,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1536",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Movin Backwards"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "05"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\06 - Conrad Tokyo.mp3",
+        "subsong_index": 0,
+        "length": 211.8,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "612",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "Conrad Tokyo"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "06"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\A Tribe Called Quest - We got it from Here\\Disc 2\\03 - The Killing Season.mp3",
+        "subsong_index": 0,
+        "length": 163.987,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1020",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.99r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3"
+        },
+        "meta": {
+            "album": [
+                "We got it from Here... Thank You 4 Your service"
+            ],
+            "album artist": [
+                "A Tribe Called Quest"
+            ],
+            "artist": [
+                "A Tribe Called Quest"
+            ],
+            "comment": [
+                "Freak37"
+            ],
+            "date": [
+                "2016"
+            ],
+            "discnumber": [
+                "2"
+            ],
+            "encoding settings": [
+                "LAME 64bits version 3.99.5 (http://lame.sf.net)"
+            ],
+            "publisher": [
+                "Epic Records"
+            ],
+            "title": [
+                "The Killing Season"
+            ],
+            "totaldiscs": [
+                "2"
+            ],
+            "totaltracks": [
+                "08"
+            ],
+            "tracknumber": [
+                "03"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\01. Hope There's Someone.mp3",
+        "subsong_index": 0,
+        "length": 261.2,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1656",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "Hope There's Someone"
+            ],
+            "tracknumber": [
+                "1"
+            ]
+        },
+        "playback_stats": {
+            "first_played": "2018-02-23 12:17:39",
+            "last_played": "2018-02-23 12:17:39",
+            "play_count": "1",
+            "added": "2018-01-28 20:56:18"
+        }
+    },
+    {
+        "path": "file://D:\\Music\\Albums\\Antony And The Johnsons -  I Am A Bird Now\\CD\\03. For Today I Am A Boy.mp3",
+        "subsong_index": 0,
+        "length": 156.173,
+        "info": {
+            "enc_delay": "576",
+            "enc_padding": "1140",
+            "mp3_accurate_length": "yes",
+            "bitrate": "320",
+            "codec": "MP3",
+            "encoding": "lossy",
+            "channels": "2",
+            "samplerate": "44100",
+            "mp3_stereo_mode": "joint stereo",
+            "tool": "LAME3.98r",
+            "codec_profile": "CBR",
+            "tagtype": "id3v2.3|id3v1"
+        },
+        "meta": {
+            "album": [
+                "I Am A Bird Now"
+            ],
+            "album artist": [
+                "Antony And The Johnsons"
+            ],
+            "artist": [
+                "Antony And The Johnsons"
+            ],
+            "date": [
+                "2005"
+            ],
+            "genre": [
+                "Art Rock"
+            ],
+            "title": [
+                "For Today I Am A Boy"
+            ],
+            "tracknumber": [
+                "3"
+            ]
+        },
+        "playback_stats": {
+            "added": "2018-01-28 20:56:18"
+        }
     }
-}
+]
