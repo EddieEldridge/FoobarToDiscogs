@@ -10,13 +10,22 @@ secret_key = "qyprAKEvdbRJAuFzPPdRbyELDPcYgyQO"
 # Define the discogs api
 main_api = 'https://api.discogs.com/database/search?q=SEARCHTERM&key=CONSUMERKEY&secret=SECRETKEY'
 
-#Read in our file containing information about our Foobar library
-data = json.load(open('test.json'))
 
-albumData = data["meta"]["ALBUM"]
+# Setup our json file to be read in
+json_file = open('lib.json',  encoding='UTF-8')
+
+# Assign the content of our json file to a variable called 'library_data'
+library_data = json.load(json_file)
+
+# Define the length of our array as
+array_length = len(library_data)
+
+for i in range(array_length):
+    pathTitle=library_data[i]['meta']
+    pprint(pathTitle)
+    print()
 
 # Pretty print our data
-pprint(albumData)
 
 # User Input for their search term
 #searchTerm = input("Search: " )
