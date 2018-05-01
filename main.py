@@ -2,6 +2,7 @@ import urllib.parse
 import requests
 import json
 from pprint import pprint
+from collections import OrderedDict
 
 # Set the keys required to access the Discogs api
 consumer_key = "uTweskQdRQLFmQcACKVo"
@@ -10,22 +11,30 @@ secret_key = "qyprAKEvdbRJAuFzPPdRbyELDPcYgyQO"
 # Define the discogs api
 main_api = 'https://api.discogs.com/database/search?q=SEARCHTERM&key=CONSUMERKEY&secret=SECRETKEY'
 
+# Define file location
+json_file = 'lib.json'
+output_file = 'output.json'
 
-# Setup our json file to be read in
-json_file = open('lib.json',  encoding='UTF-8')
 
-# Assign the content of our json file to a variable called 'library_data'
-library_data = json.load(json_file)
+# Setup our json file to be read, encoding it as UTF 8, and giving it a variable name of 'file'
+with open(json_file, 'r', encoding='UTF-8') as file:
+    
+    # Unique list
+    unique_list = []
 
-# Define the length of our array as
-array_length = len(library_data)
+    # Load the opened json file in as an Ordered Dictionary
+    json_dictionary = json.load(file)
+    
+   # For loop to iterate through our information
+    for element in json_dictionary:
+            #pprint(element['meta']['album'])
 
-for i in range(array_length):
-    pathTitle=library_data[i]['meta']
-    pprint(pathTitle)
-    print()
+            if element['meta']['album'] not in unique_list:
+               unique_list.append(element['meta']['album'])
+    
+pprint(unique_list)
 
-# Pretty print our data
+
 
 # User Input for their search term
 #searchTerm = input("Search: " )
