@@ -11,62 +11,98 @@ import time
 consumer_key = "uTweskQdRQLFmQcACKVo"
 secret_key = "qyprAKEvdbRJAuFzPPdRbyELDPcYgyQO" 
 
-# Define file location
-json_file = 'lib.json'
+
 output_file = 'output.json'
 
 # Create the client
 doClient = discogs_client.Client('FoobarToDiscogs/0.1', consumer_key='uTweskQdRQLFmQcACKVo',consumer_secret='qyprAKEvdbRJAuFzPPdRbyELDPcYgyQO')
-authStuff = doClient.get_authorize_url()
 
-# Process auth details
-request_token = authStuff[0]
-request_secret = authStuff[1]
-authorizationURL = authStuff[2]
+def addToWantList(albumList, currentUser):
+    artistID = []
+    unAddedAlbums = []
+    addedAlbumsCount = 0
+    unAddedAlbumsCount= 0
 
-# Open the auth url in a browser
-webbrowser.open_new_tab(authorizationURL)
+    for i in range(len(albumList)):
+        albumName = str(albumList[i])
+        result = doClient.search(albumName, type='release')
+        if(len(result)==0):
+            print("No results found for: " + albumName)
+            unAddedAlbums.append(albumList[i])
+            unAddedAlbumsCount += 1
 
-authKey = input("Please enter the key shown by Discogs: ")
-doClient.get_access_token(authKey)
-
-currentUser = doClient.identity()
-
-# Setup our json file to be read, encoding it as UTF 8, and giving it a variable name of 'file'
-with open(json_file, 'r', encoding='UTF-8') as file:
-    
-    # Unique list
-    albumList = []
-
-    # Load the opened json file in as an Ordered Dictionary
-    json_dictionary = json.load(file)
-    
-   # For loop to iterate through our information
-    for element in json_dictionary:
-            #pprint(element['meta']['album'])
-
-            if element['meta']['album'] not in albumList:
-               albumList.append(element['meta']['album'])
-    
-#pprint(unique_list)
-currentUser.wantlist.add(doClient.release(5))
-artistID = []
-
-for i in range(len(albumList)):
-    albumListElement = albumList[i]
-    albumElementString = str(albumListElement)
-    result = doClient.search(albumElementString, type='release')
-    if(len(result)==0):
-        print("No results found for: " + albumElementString)
-    else:
-        album = result[0]
-        print("Your album: " + albumElementString)
-        print("Album found: " + album.title)
-        userInput = input("Add this album to wantlist? (y/n):  ")
-        if(userInput=='y'):
-             currentUser.wantlist.add(album.id)
         else:
-            continue
+            album = result[0]
+            print("Adding: " + album.title)
+            time.sleep(1.2)
+            try:
+                currentUser.wantlist.add(album.id)
+                addedAlbumsCount += 1
+            except:
+                print("HTTPError: 502: The Discogs API is undergoing maintenance. This is beyond my control.")
+    
+    print("Added albums: " + str(addedAlbumsCount))
+    print("Skipped albums: " + str(unAddedAlbumsCount))
+
+    print("=== SKIPPED ALBUMS ===")
+    pprint(unAddedAlbums)
+
+def discogsAuth():
+    authStuff = doClient.get_authorize_url()
+
+    # Process auth details
+    request_token = authStuff[0]
+    request_secret = authStuff[1]
+    authorizationURL = authStuff[2]
+
+    # Open the auth url in a browser
+    webbrowser.open_new_tab(authorizationURL)
+
+    # Prompt the user for their authentication key
+    authKey = input("Please enter the key shown by Discogs: ")
+
+    # Get an access token using the authentication key
+    doClient.get_access_token(authKey)
+
+    # Set currentUser to be the user that just authenticated
+    currentUser = doClient.identity()
+
+    return currentUser
+
+def readJSON():
+    # Define file location  
+    json_file = input("Please enter the name of the generated JSON File (eg. lib.json): ")
+
+    # Setup our json file to be read, encoding it as UTF 8, and giving it a variable name of 'file'
+    with open(json_file, 'r', encoding='UTF-8') as file:
+        
+        # Unique list of albums
+        albumList = []
+
+        # Load the opened json file in as an Ordered Dictionary
+        json_dictionary = json.load(file)
+        
+    # For loop to iterate through our information
+        for element in json_dictionary:
+            if element['meta']['album'] not in albumList:
+                albumName = element['meta']['album']
+                albumList.append(albumName)
+        
+    for i in range(len(albumList)):
+        print("Album " + str(i) + ": " + str(albumList[i]))
+
+    print("File loaded successfully!")
+    print("Albums found: " + str(len(albumList)))
+
+    shouldContinue = input("Continue? (y/n): ")
+    if(shouldContinue=='y'):
+        currentUser = discogsAuth()
+        addToWantList(albumList, currentUser)
+    else:
+        print("Exiting...")
+        exit
+
+readJSON()
+
 
         
-
