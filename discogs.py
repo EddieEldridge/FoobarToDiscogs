@@ -8,8 +8,8 @@ import webbrowser
 import time
 
 # Set the keys required to access the Discogs api
-consumer_key = "uTweskQdRQLFmQcACKVo"
-secret_key = "qyprAKEvdbRJAuFzPPdRbyELDPcYgyQO" 
+consumer_key = ""
+secret_key = "" 
 
 
 output_file = 'output.json'
